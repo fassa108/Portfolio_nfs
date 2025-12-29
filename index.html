@@ -12,20 +12,91 @@
         <h1>Ndeye Fassa Samb</h1>
         <nav>
             <ul>
-                <li>A propos</li>
-                <li>Competences</li>
-                <li>Projets</li>
-                <li>Contact</li>
+                <li><a href="#presentation">A propos</a></li>
+                <li><a href="#competences">Competences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <section id="presentation" class="presentation">
+            <h1>Qui suis-je?</h1>
+            <div class="text">
+                <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam officiis neque expedita sequi ducimus? Et magnam maiores impedit a itaque ratione illum accusamus neque blanditiis rem velit, ipsam id modi?
+                </p>
+            </div>
+            <div class="image">
+                <img src="images/photo1.jpg" alt="ma photo">
+            </div>
+        </section>
 
+        <section id="competences" class="competences">
+            <h1>Competences</h1>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>PYTHON</li>
+                <li>PHP</li>
+                <li>JAVA/JAVAFX</li>
+                <li>C/C++</li>
+                <li>MYSQL</li>
+            </ul>
+        </section>
+
+        <section id="projets" class="projets">
+            <h1>Mes Projets</h1>
+            <div class="mesprojets">
+                <div class="projet">
+                    <h4>Gestion de stock LARAVEL</h4>
+                    <div class="desc">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit praesentium hic natus possimus dignissimos, quis quibusdam reprehenderit reiciendis repudiandae tempore, suscipit saepe assumenda. Tenetur ipsum a corporis, quibusdam repellat voluptatibus!
+                        </p>
+                    </div>
+                </div>
+                <div class="projet">
+                    <h4>Gestion de stock LARAVEL</h4>
+                    <div class="desc">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit praesentium hic natus possimus dignissimos, quis quibusdam reprehenderit reiciendis repudiandae tempore, suscipit saepe assumenda. Tenetur ipsum a corporis, quibusdam repellat voluptatibus!
+                        </p>
+                    </div>
+                </div>
+                <div class="projet">
+                    <h4>Gestion de stock LARAVEL</h4>
+                    <div class="desc">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit praesentium hic natus possimus dignissimos, quis quibusdam reprehenderit reiciendis repudiandae tempore, suscipit saepe assumenda. Tenetur ipsum a corporis, quibusdam repellat voluptatibus!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h1>Me contacter?</h1>
+            <form action="traitement.php">
+                <div class="ligne">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" placeholder="Votre nom">
+                </div>
+                <div class="ligne">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="exemple@gmail.com">
+                </div>
+                <div class="ligne">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Votre message"></textarea>
+                </div>
+            </form>
+        </section>
     </main>
     
     <footer>
-
+        <p>&copy;2025 Ndeye Fassa Samb </p>
     </footer>
 </body>
 </html>
